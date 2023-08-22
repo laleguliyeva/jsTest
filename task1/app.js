@@ -72,13 +72,131 @@
 //     console.log('fizz')
 // }
 // else if (eded % 5 ===0) {
+
 //     console.log('buzz')
 // }
 
-let sum = 0;
-for (let i = 0; i < 100; i++) {
-    if (i % 2 === 1) {
-        sum = sum + i;
-    }
+// let sum = 0;
+// for (let i = 0; i < 100; i++) {
+//     if (i % 2 === 1) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum)
+
+
+// for ( let i =1; i<867; i++) {
+//     if (i%13===4)
+//     console.log(i)
+// }
+// let ad=prompt('adinizi daxil edin')
+// let cins= prompt('cinsinizi daxil edin')
+// if (cins==='K') {
+//     console.log(`Hey, mr ${ad} `)
+
+// }
+// else if(cins==="K") {
+//     console.log(`hey, ms ${ad}`)}
+// let ad=prompt('adinizi daxil edin')
+// let cins= prompt('cinsinizi daxil edin')
+// if  (cins==="K"){
+//     console.log(`hey,mr ${ad}`)
+// }
+// else if (cins==="Q") {
+//     console.log(`hey, ms ${ad}`)
+// }
+
+// function add() {
+
+//    let ed1=+prompt('first number')
+//    let ed2=+prompt('second number')
+//     console.log(ed1+ed2)
+// }
+// add()
+// function calculator(num1, num2, operator) {
+//     switch (operator) {
+//         case '+':
+//             console.log(num1 + num2)
+//             break;
+//         case '- ':
+//             console.log(num1 - num2)
+//             break;
+//         case '*':
+//             console.log(num1 * num2)
+//     }
+
+// }
+// calculator(6, 2, '-')
+// function getNumber(){
+//     let ed=+prompt('eded daxil edin')
+//     return ed;
+// }
+// let ed =getNumber()
+// console.log(ed)
+// function niceName (name, emoji){
+//     let netice= emoji+ad+emoji
+//     return netice
+
+// }
+// const ad1= niceName('ali', '~')
+// console.log(ad1)
+// const ad2= niceName(qamze,'🌹')
+// console.log(ad2)
+//  
+// const info = (name, phone, price) => `${name} bought ${phone} for ${price}`
+
+
+// console.log(info('Ali', 'Honor', '2000$'))
+// const calc = (operator) => {
+//     if(operator ==='+') {
+//         return(ed1, ed2) => ed1+ed2
+//     }
+// }
+// const sum = calc ('+')
+// console.log(sum(12,23))
+// const makeFormalFactory = (gender) => {
+//     if (gender === 'K') {
+//         return (name) => `Hi, mr ${name} `   }
+//         else if (gender === 'Q') { return (name) => { `Hi, ms ${name}` } }
+
+// OBJECT
+// }
+// const forMan= makeFormal
+// const mikayil = {
+//     name:'mikayil',
+//     age:3,
+//     job: 'playing',
+//     coding: ()=>{
+//         console.log('he goes to the nursery school')
+//     }
+
+
+// }
+// console.log(mikayil.age)
+//  const product = {
+//     model:'nokia',
+//     price: 600
+//  }
+//  console.log(product.price)
+//  product.price-=200
+//  console.log('After discount:')
+//  console.log(product.price) 
+// let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Peter: 130
+// }
+// let sum = 0
+// for (let key in salaries) { sum += salaries[key] }
+// console.log(sum)
+const ali = {
+    ad:'ali',
+    yas:12,
+    is:'avara'
 }
-console.log(sum)
+const ali2={...ali}
+// spread
+
+ali2.is='xuliqan'
+console.log(ali)
+console.log(ali2)
